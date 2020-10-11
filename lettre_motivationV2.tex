@@ -1,0 +1,148 @@
+\documentclass[a4paper,12pt]{article}
+
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[intlimits]{amsmath}
+\usepackage{amsfonts,amssymb,amscd,amstext}
+
+%%% put bar on the left of text : 
+%\usepackage{framed}
+%\setlength{\FrameSep}{20pt}
+
+
+%%%% tikz library : %%%%
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,calc,arrows,shapes,decorations.pathreplacing}
+\usetikzlibrary{patterns,plotmarks}
+\usetikzlibrary{decorations.pathreplacing,decorations.markings, arrows}
+\newcommand{\midarrow}{\tikz \draw[-triangle 90] (0,0) -- +(.1,0);}
+\usepackage{pgfplots}
+\usepackage{caption,subcaption}
+\tikzset{every picture/.style={remember picture}}
+
+
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{array}
+\usepackage{theorem}
+\newtheorem{remark}{Remark}
+\newtheorem{theorem}{Theorem}[subsection]
+
+\newcommand{\aaa}{\alpha}
+\newcommand{\bb}{\beta}
+
+
+%ajouts ulysse
+\newcommand{\Int}{\int\limits}
+\newcommand{\om}{$\!\!^\sharp\,\,$}
+\newcommand{\di}{$\!\!^\star\,\,$}
+%\pagestyle{empty}
+\newcommand{\ligneH}{\noindent\makebox[\linewidth]{\rule{\textwidth}{.5pt}}} %\paperwidth
+
+%%%% mise en page : 
+\pagestyle{plain} \setlength{\textwidth}{18,4cm}
+\setlength{\textheight}{28cm} \setlength{\topmargin}{-4cm}
+\setlength{\oddsidemargin}{-1,2cm}
+\setlength{\evensidemargin}{+1,2cm}
+
+\title{Lettre de motivation}
+\author{Claire Gayral}
+\date{}
+
+\begin{document}
+
+\maketitle
+
+Chers Messieurs,
+
+Votre offre de thèse pluridisciplinaire, sur le développement de méthode d'apprentissage machine pour comprendre le vieillissement de la moelle osseuse lié à une exposition aux rayons cosmiques, semble tout à fait correspondre à mon projet professionnel. Je me permets donc de vous exposer les raisons qui me poussent à postuler à cette offre, qui est une opportunité de choix pour moi, parce qu'elle fait écho à différentes thématiques qui me plaisent. \\
+
+% \textit{
+%Pourquoi je veux faire une thèse :
+%1- Stage M1 : limite de la fouille de donnée sans l'auto-formation pour se renouveler
+%2- Curiosité : apprendre à apprendre, formation, 
+%3- Projet de vie : enseignant chercheur
+%4- challenge : publication, réussir à faire avancer la science
+%}
+
+La première chose qu'il me semble nécessaire à motiver est mon envie de faire une thèse. L'historique débute lors d'un stage facultatif, fait dans l'entreprise LumenAI, en fin de première année de Master, pendant lequel j'ai été encadrée par Sébastien Lousteau et Camille Saumard. Ce stage m'a permis de réaliser que la fouille de données avec les compétences que j'avais allait très rapidement m'ennuyer, car la réalité de l'entreprise n'en fait pas un milieu propice à l'auto-formation. 
+
+Il m'était donc nécessaire d'apprendre à apprendre par moi même. D'autant plus que ma curiosité pour les mathématiques se cachant derrière les modèles d'apprentissage restait à assouvir.
+C'est ainsi qu'est né ce projet de thèse, par son aspect de formation à la recherche.  
+Ce projet sur 3 ans est aussi un défi de par les enjeux de publication, et de façon plus global par le modeste apport à la science qu'il apportera. Je ne suis pas encore complètement figée dans mon projet professionnel après cette étape : chercher un poste d'enseignant-chercheur, ou partir dans un service Recherches et Développement d'une entreprise. Je pense avoir le temps de maturer cela, au cours de la thèse (et voir les opportunités à la fin de celle-ci !). 
+
+
+Pour ma deuxième année de Master, j'ai donc choisi quitter la filière professionnalisante, au profit de la filière recherche. J'ai validé mon année en étant 7$^{ième}$ de ma promotion. 
+
+J'ai enchainé sur 4 mois de stage de recherche co-encadrée par J.Chiquet et F.Picard, durant lesquels je me suis familiarisée avec les notions biologiques de génomique en cellule unique, et j'ai nettoyé et analysé un jeu de données, dans l'objectif de comprendre des mécanismes de régulation qui expliqueraient la différentiation de lymphocyte. Malheureusement, ces données avaient trop peu de signal pour les utiliser dans un cadre d'intégration (3 mesures par groupe à identifier pour l'expression génomique, et 27 mesure pour 23 groupes dans la régulation). Ce stage a débouché, comme il en avait été convenu, sur un contrat doctoral, portant sur le sujet "intégration de données de séquençage en cellule unique". 
+Par intégration, j'entends trouver des plans de projection dans lesquels les données aurait une distance faible, comme l'Analyse Canonique des Corrélation (CCA) cherche un plan de projection où la distance "corrélation" est faible. J'ai commencé par me familiariser avec les méthodes théoriques classiques d'intégration, puis leur extension à noyaux, et probabilistes, puis j'ai regardé quelles métriques pourraient être utilisées pour intégrer ces données avec des distributions si particulières. Entre autre, et je pense que vous comprendrez pourquoi j'insiste sur ce point, j'ai consacré quelques mois à me familiariser avec quelques propriétés théoriques des distances de Wasserstein, dans leur forme semi-discrètes (l'objectif étant de remplacer la perte de maximum de vraissemblance dans la CCA par une perte de minimum de Wasserstein). 
+
+Je viens de finir cette année de thèse très difficile, durant laquelle nous n'avons pas réussi à trouver une communication constructive avec un de mes directeur, ce pourquoi il est préférable de finir avec ce projet. Néanmoins, ni mes compétences, ni les raisons qui me poussaient à entreprendre un doctorat n'ont été remis en cause.\textbf{ (je vous laisse le soin de lire la lettre / contacter mon co-directeur avec qui la communication est limpide, J. Chiquet).}
+Les connaissances apprises et les habitudes de travail acquises durant cette année sont des atouts qui me rendent très compétitive pour un autre projet de thèse, et font de cette expérience non un échec, mais bien un tremplin vers un projet qui me conviendrait mieux.
+
+
+\textit{ 
+\textbf{Comment mon parcours me rends compétitive : }\\
+- J'ai donc une année entière de recul, comment s'intégrer dans un labo (même 2 !), comment organiser son temps, laisser couler les choses moins importantes, ... tout le recul d'une année supplémentaire de travail.  \\
+quelques mois de recherches bibliographiques autour du transport opt (en stage M1 + depuis mars) \\
+-Ma formation a été pluridisciplinaire a de nombreux moment : de la prépa (bio, physique-chimie) au choix de la spécialité de master. Un an de thèse interdisciplinaire : ++ \\
+- J'ai suivi les cours de machine learning du master data science en plus de mon parcours+ stage M1 entièrement en python -> je sais m'adapter.
+Je réponds aux exigences demandées dans l'offre : valoriser mes compétences
+}    \\
+    
+De plus, mes directeurs m'offrent la possibilité de finir l'année civile sur le financement de la thèse en cours, ce qui permettrait de vous proposer un "stage" en temps masqué, dès le mois de décembre.
+Par ailleurs, ma formation m'aurait permis de candidater sans cette expérience : 
+
+%C'est dans cette optique que j'ai trouvé votre offre de thèse, qui a attiré mon attention. \\
+
+Pourquoi cette offre en particulier ? Le fait que ce soit un travail pluridisciplinaire est un avantage : l'occasion de découvrir des curiosités biologiques est un point qui me parle, c'est d'ailleurs pour cela que j'avais commencé mes études par une année de biologie, et c'est la même raison qui m'a poussée à choisir la spécialité "application à la biologie et à la médecine" du Master Maths en Action. Cette application des mathématiques à des problématiques médicales me paraît constructif pour la science (bien plus que de travailler à améliorer des algorithmes de publicité ciblée !). 
+D'un point de vu technique, je suis à l'aise pour dire que je serai compétente pour répondre aux attentes évoqués. Dans le descriptif de l'offre, vous évoquiez deux axes distincts pour ce projet de thèse. Le deuxième axe, sur des méthodes de transferts, fait écho à ce que j'ai pu lire sur l'intégration de données omiques, qui était souvent dans le but d'utiliser un apriori (expression de gènes), pour conclure sur un autre aspect (une régulation liée à l'accessibilité de l'ADN par exemple). Le premier axe, avec lequel je suis moins familier, porterait sur des méthodes de super-résolution. Cela fait écho aux rudiments de traitement de l'image que j'ai eu en première année de Master, et j'ai hâte de découvrir ce domaine !%, et le fait de ne pas avoir creusé cet intérêt était purement par manque d'opportunité. 
+
+Par ailleurs, le fait que les données soit acquises et disponibles dès le début du travail est, à mes yeux, une grande qualité : cela permet de cibler la/les problématique biologique et pouvoir tester les méthodes adaptées sur des données concrètes, avec toutes leur particularité.
+Enfin, d'un point de vu personnel, je suis originaire de la région, et nous souhaitons nous installer de nouveau ici avec mon conjoint. C'est un plus, non décisif, mais qui mérité d'être mentionné. 
+\\
+
+
+
+%\textit{\textbf{Pourquoi je veux faire CETTE thèse :}
+%\begin{itemize}
+%    \item Interdisciplinaire - application bio +++ : il y a des données ! 
+%    \item contenu méthodo : OT + Transfert d'information - une grosse idée
+%    \item application "marrante" 
+%    \item Région rhone-Alpes
+%\end{itemize}
+%}
+
+
+
+\textit{
+\textbf{Projet commun :}\\
+Comment je vois les choses (encadrement, positionnement): 
+    \begin{itemize}
+        \item valeurs : humains - justice - respect.
+        \item rapport authentique - pas de non-dit - confiance mutuelle dans le travail
+        \item direction claire (ça ne veut pas dire qu'elle ne change pas de direction, mais que les décisions soient prises en commun et non unilatérales) -> projet de thèse = un projet à 2 (en l'occurrence 3) et c'est autant une collaboration qu'une formation. 
+        \item publication : Je suis peut-être encore trop naïve sur la question, mais il me parait bien plus important de soumettre un article dans une bonne revue que 3 articles de moins bonne qualité
+    \end{itemize}
+Mes exigences : 
+\begin{itemize}
+    \item disponibilité qu'à partir de janvier
+    \item Réunion de travail - présentiel au moins de temps en temps, ou un outil d'échange efficace (support numérique commun)
+    \item quelques semaines/1 mois de travail en "temps masqué" (novembre décembre) ? 
+\end{itemize}
+    }
+    
+
+
+    
+
+\textbf{Contenu mail} : Monsieur Seban, Monsieur Redko, 
+
+Je vous contacte au sujet de l'offre de thèse intitulée "Machine learning for understanding the aging of a
+human bone due to space exposure", qui pourrait tout à fait correspondre à mon projet professionnel. Comme exigé dans l'offre, je vous joins donc ma lettre de motivation et mon CV, en anglais et français, ainsi qu'une lettre de recommandation de mon responsable de master.%, et une de la part d'un de mes directeurs actuel.% ainsi que de mon encadrant de stage de M1 (fouille de données en python).  
+
+
+
+
+
+\end{document}
