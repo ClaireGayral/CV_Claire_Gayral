@@ -1,0 +1,94 @@
+\documentclass[a4paper,11pt]{article}
+\renewcommand{\baselinestretch}{0.94} 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[intlimits]{amsmath}
+\usepackage{amsfonts,amssymb,amscd,amstext}
+
+
+%%%% tikz library : %%%%
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,calc,arrows,shapes,decorations.pathreplacing}
+\usetikzlibrary{patterns,plotmarks}
+\usetikzlibrary{decorations.pathreplacing,decorations.markings, arrows}
+\newcommand{\midarrow}{\tikz \draw[-triangle 90] (0,0) -- +(.1,0);}
+\usepackage{pgfplots}
+\usepackage{caption,subcaption}
+\tikzset{every picture/.style={remember picture}}
+
+
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{array}
+\usepackage{theorem}
+\newtheorem{remark}{Remark}
+\newtheorem{theorem}{Theorem}[subsection]
+
+\newcommand{\aaa}{\alpha}
+\newcommand{\bb}{\beta}
+
+
+%ajouts ulysse
+\newcommand{\Int}{\int\limits}
+\newcommand{\om}{$\!\!^\sharp\,\,$}
+\newcommand{\di}{$\!\!^\star\,\,$}
+%\pagestyle{empty}
+\newcommand{\ligneH}{\noindent\makebox[\linewidth]{\rule{\textwidth}{.5pt}}} %\paperwidth
+
+%%%% mise en page : 
+\pagestyle{plain} \setlength{\textwidth}{17,6cm}
+\setlength{\textheight}{25cm} \setlength{\topmargin}{-2cm}
+\setlength{\oddsidemargin}{-0.9cm}
+\setlength{\evensidemargin}{+0.9cm}
+
+\title{Lettre de motivation}
+\author{Claire Gayral}
+\date{}
+
+\begin{document}
+
+{\centering \Large \bf Lettre de motivation \\ \vspace{0.6cm} }
+
+Monsieur Politis,\\
+
+Je me permets de vous contacter au sujet de l'offre de CDD sur l'analyse de l’impact local des activités minières sur le développement économique en Afrique. En effet, je suis à la recherche d'une mission courte, en machine learning, et mon profil semble correspondre à ce qui est présenté dans l'offre disponible sur l'APEC. \\
+
+Je suis dans l'attente de la confirmation de financements pour une thèse %qui ne débuterait que dans un an, 
+ et je compte utiliser ce temps pour m'investir dans un projet tout autre et découvrir de nouvelles applications.  %avant de me lancer dans cette nouvelle thèse. 
+La mission proposée collerait donc parfaitement pour cette période de transition. %Il y a en effet peu d'offres similaire en Machine Learning dans un laboratoire public. %
+J'ai découvert quelques applications possibles du Machine Learning lors de mon stage facultatif de fin de première année, encadré par S. Lousteau et C. Brunet-Saumard.
+J'ai eu à traiter des problématiques de détections de fraudes téléphoniques, et de maintenance prédictive pour l'entreprise LumenAI. J'ai découvert de nombreux outils, tant mathématiques (graphes, transport optimal, clustering, ...) que de programmation python (pandas, NetworkX, ...). 
+Ce stage m'a permis de réaliser qu'un doctorat sera nécessaire pour que je m'épanouisse au long terme dans ce domaine du Machine Learning, 
+%
+%la fouille de données pour une entre avec les compétences que j'avais allait très rapidement m'ennuyer, car la réalité de l'entreprise n'en fait pas un milieu propice à l'auto-formation,
+d'où ce projet de thèse qui suivrait cette expérience. 
+
+%De plus, le milieu universitaire est, de mon expérience, un environnement riche et propice au développement intellectuel, que j'aurai plaisir à retrouver. 
+
+Pour ma deuxième année de Master, j'ai donc choisi de quitter la filière professionnalisante, au profit de la filière recherche - année validée en étant 7$^{\text{ième}}$ de promotion. 
+J'ai enchaîné sur 4 mois de stage co-encadré par J. Chiquet et F. Picard, portant sur l'analyse de mesures d'expression et régulation génomique de lymphocytes, en cellule unique. %Ce travail technique n'a pu aboutir à une publication %%sur des mécanismes de régulation responsables de la différentiation de lymphocyte, 
+%par manque de signal dans les données.
+%
+%durant lesquels je me suis familiarisée avec les notions biologiques de génomique en cellule unique, et j'ai nettoyé et analysé un jeu de données, dans l'objectif de révéler des mécanismes de régulation responsables de la différentiation de lymphocyte. Ces données avaient trop peu de signal pour les utiliser dans un cadre d'intégration, et publier ce travail. 
+%
+J'ai entamé une thèse, portant sur le sujet "intégration de données de séquençage en cellule unique", dont la première année a été consacrée à la bibliographie, et un projet d'intégration de données omiques.
+Ce projet a été l'occasion d'apprendre, en toute autonomie, à utiliser le serveur de calcul du laboratoire, avec un suivi git et toutes les bonnes pratiques nécessaires à un projet commun avec d'autres personnes.
+%
+%Par intégration, j'entends trouver des plans de projection dans lesquels la distance est faible, comme l'Analyse Canonique des Corrélation (CCA) projette les données dans un espace où la distance "corrélation" est faible. Partant de cette méthode classique, j'ai étudié ses différentes extensions (à noyaux, probabiliste) puis j'ai cherché à remplacer la métrique par une mesure qui prendrait mieux en compte la distribution si particulière des données (différentes divergences, transport optimal). 
+
+En parallèle de ces travaux, j'ai dispensé 110 heures de TD depuis janvier 2020, pour l'UFR de mathématiques de l'UCBL. 
+Néanmoins, cette première année de thèse ne s'est pas déroulée dans des conditions optimales, notamment à cause de problèmes de communication avec un de mes directeurs, ce qui m'a forcé à considérer ce nouveau projet professionnel.\\ 
+%Il a donc été décidé d'interrompre cette thèse, bien que ni mes compétences, ni les raisons qui me poussaient à entreprendre un doctorat n'ont été remises en cause (je vous laisse le soin de contacter mon directeur actuel J. Chiquet, ou encore mon encadrant de stage de M1, S. Lousteau).
+%
+%Les connaissances apprises et les habitudes de travail acquises durant cette année font de cette expérience non un échec, mais bien un tremplin vers un projet qui me conviendrait mieux. 
+
+%C'est ainsi que je me présente pour mener à bien ce projet bibliographique avec vous \textcolor{red}{ils ont pas encore accepté : mettre plutôt : j'espère que ce projet bibliographique, avec l'idée d'en faire une thèse ensuite, est une option qui vous conviendrait. je suis certain blablaba}, dans l'idée de le transformer en projet de thèse après l'avoir mené à bout. 
+Je suis certaine qu'il sera facile de construire une relation de confiance pour ce projet, dont les objectifs ont l'air très bien dessinés. %dès lors que la communication est claire, et les directions scientifiques prises dans un esprit de collaboration. 
+Je reste donc à votre entière disposition pour construire ce premier travail, et cette thèse, en espérant que ma candidature puisse correspondre à vos attentes. \\
+
+Meilleures salutations, \\
+
+Claire Gayral
+
+
+\end{document}

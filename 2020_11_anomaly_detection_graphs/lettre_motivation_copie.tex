@@ -1,5 +1,5 @@
 \documentclass[a4paper,11pt]{article}
-
+\renewcommand{\baselinestretch}{0.94} 
 \usepackage[T1]{fontenc}
 \usepackage[utf8]{inputenc}
 \usepackage[intlimits]{amsmath}
@@ -51,15 +51,23 @@
 
 Monsieur Haddad, Madame Seba,\\
 
-Votre offre de stage de master 2, sur la détection d’anomalies dans un flux de graphes a attiré mon attention, car cette thématique de recherche, avec de multiples applications, me semble aussi intéressante que valorisable. Je suis plus intéressée par l'offre de thèse accompagnant le stage que le stage lui-même, et j'aimerais vous détailler les raisons qui m'amènent à vous soumettre ma candidature.
+Votre offre de stage de master 2, sur la détection d’anomalies dans un flux de graphes a attiré mon attention, car cette thématique de recherche, avec de multiples applications, me semble aussi intéressante que valorisable. Je suis plus intéressée par l'offre de thèse accompagnant le stage que par le stage lui-même, et j'aimerais vous détailler les raisons qui m'amènent à vous soumettre ma candidature.
+\\
 
 Premièrement, mon projet de faire un doctorat est né par son aspect de formation à la recherche, lors de mon stage facultatif de fin de première année de Master en Machine Learning, encadré par S. Lousteau et C. Brunet-Saumard.
-J'ai eu à traiter des problématiques de détections de fraude téléphonique, et de maintenance prédictive pour l'entreprise LumenAI. J'ai découvert de nombreux outils, tant mathématiques (graphes, transport optimal, clustering, ...) que de programmation (pandas, NetworkX, ...). 
+J'ai eu à traiter des problématiques de détections de fraudes téléphoniques, et de maintenance prédictive pour l'entreprise LumenAI. J'ai découvert de nombreux outils, tant mathématiques (graphes, transport optimal, clustering, ...) que de programmation python (pandas, NetworkX, ...). 
 Ce stage m'a permis de réaliser que la fouille de données avec les compétences que j'avais allait très rapidement m'ennuyer, car la réalité de l'entreprise n'en fait pas un milieu propice à l'auto-formation. 
-Pour ma deuxième année de Master, j'ai donc choisi quitter la filière professionnalisante, au profit de la filière recherche - année validée en étant 7$^{\text{ième}}$ de promotion. 
-J'ai enchaîné sur 4 mois de stage de recherche co-encadré par J. Chiquet et F. Picard, durant lesquels je me suis familiarisée avec les notions biologiques de génomique en cellule unique, et j'ai nettoyé et analysé un jeu de données, dans l'objectif de révéler des mécanismes de régulation responsables de la différentiation de lymphocyte. Ces données avaient trop peu de signal pour les utiliser dans un cadre d'intégration, et publier ce travail. J'ai entamé une thèse, portant sur le sujet "intégration de données de séquençage en cellule unique", dont la première année a été consacrée à la bibliographie, et un projet d'intégration de données omiques. %Par intégration, j'entends trouver des plans de projection dans lesquels les données aurait une distance faible, comme l'Analyse Canonique des Corrélation (CCA) est une méthode algébrique qui cherche un plan de projection où la distance "corrélation" est faible. J'ai commencé m'intéresser à cette méthode classique d'intégration, et ses extensions à noyaux, et probabilistes, puis j'ai regardé quelles métriques pourraient être utilisées pour intégrer ces données avec des distributions si particulières (différentes divergences, et distance de Wasserstein).
-En parallèle de ces travaux, j'ai dispensé %donné des enseignements, 
-110 heures de TD depuis janvier 2020, pour l'UFR de mathématiques de l'UCBL. 
+Pour ma deuxième année de Master, j'ai donc choisi de quitter la filière professionnalisante, au profit de la filière recherche - année validée en étant 7$^{\text{ième}}$ de promotion. 
+J'ai enchaîné sur 4 mois de stage co-encadré par J. Chiquet et F. Picard, portant sur l'analyse de mesures d'expression et régulation génomique de lymphocytes, en cellule unique. %Ce travail technique n'a pu aboutir à une publication %%sur des mécanismes de régulation responsables de la différentiation de lymphocyte, 
+%par manque de signal dans les données.
+%
+%durant lesquels je me suis familiarisée avec les notions biologiques de génomique en cellule unique, et j'ai nettoyé et analysé un jeu de données, dans l'objectif de révéler des mécanismes de régulation responsables de la différentiation de lymphocyte. Ces données avaient trop peu de signal pour les utiliser dans un cadre d'intégration, et publier ce travail. 
+%
+J'ai entamé une thèse, portant sur le sujet "intégration de données de séquençage en cellule unique", dont la première année a été consacrée à la bibliographie, et un projet d'intégration de données omiques. 
+%
+Par intégration, j'entends trouver des plans de projection dans lesquels la distance est faible, comme l'Analyse Canonique des Corrélation (CCA) projette les données dans un espace où la distance "corrélation" est faible. Partant de cette méthode classique, j'ai étudié ses différentes extensions (à noyaux, probabiliste) puis j'ai cherché à remplacer la métrique par une mesure qui prendrait mieux en compte la distribution si particulière des données (différentes divergences, transport optimal). 
+%Par intégration, j'entends trouver des plans de projection dans lesquels les données aurait une distance faible, comme l'Analyse Canonique des Corrélation (CCA) est une méthode algébrique qui cherche un plan de projection où la distance "corrélation" est faible. J'ai commencé m'intéresser à cette méthode classique d'intégration, et ses extensions à noyaux, et probabilistes, puis j'ai regardé quelles métriques pourraient être utilisées pour intégrer ces données avec des distributions si particulières (différentes divergences, et distance de Wasserstein).
+En parallèle de ces travaux, j'ai dispensé 110 heures de TD depuis janvier 2020, pour l'UFR de mathématiques de l'UCBL. 
 Malheureusement, cette première année de thèse ne s'est pas déroulée dans des conditions optimales, notamment à cause de problèmes de communication avec un de mes directeurs. 
 %
 Il a donc été décidé d'interrompre ce projet, bien que ni mes compétences, ni les raisons qui me poussaient à entreprendre un doctorat n'ont été remises en cause (je vous laisse le soin de contacter mon directeur actuel J. Chiquet, ou encore mon encadrant de stage de M1, S. Lousteau).
@@ -68,33 +76,37 @@ Les connaissances apprises et les habitudes de travail acquises durant cette ann
 %
 Je ne suis pas encore figée dans mon projet professionnel au long terme : poursuivre un parcours académique, ou partir en entreprise. Je pense avoir le temps de maturer cela au cours de la thèse. 
 %
+\\
 
-
-Pourquoi cette offre en particulier ?  L'offre est claire, et propose une bibliographie assez riche comme point de départ. Bien que mes travaux de recherches précédents diffèrent du sujet que vous proposez, ma formation en mathématiques et informatique me donne la flexibilité nécessaire pour aborder cette thématique différente; et mon expérience de thèse m'a donné une méthodologie de travail que je saurais remettre à profit.% Par ailleurs, les graphes, et la détection d'anomalie sont deux points de départ qui me donne.
+Pourquoi cette offre en particulier ?  L'offre est claire, et propose une bibliographie assez riche comme point de départ. Bien que mes travaux de recherches précédents diffèrent du sujet que vous proposez, ma formation en mathématiques et informatique me donne la flexibilité nécessaire pour aborder cette thématique différente; et mon expérience de thèse m'a donné une méthodologie de travail que je saurais remettre à profit. % Par ailleurs, les graphes, et la détection d'anomalie sont deux points de départ qui me donne.
 Je l'ai bien noté, vous proposez une offre de stage de Master et non de thèse.
 Je ne doute pas que l'on puisse construire ensemble une relation de confiance pour travailler, mais mon expérience récente m'incline à prendre le temps de bâtir une telle relation avant de m'engager dans un projet à long terme. Je suis sûre que vous comprendrez, étant donné les circonstances.
 %Mon expérience récente me pousse à vouloir faire quelques mois de travail bibliographique avec vous avant de m'engager dans un projet de thèse : \textcolor{red}{}
 Ce pourquoi une forme de "stage" me paraît tout à fait appropriée.  
 %
-
-
-J'espère que ce projet bibliographique, avec l'idée d'en faire une thèse ensuite, est une option qui vous conviendrait. 
+\\
+J'espère que ce projet d'introduction au sujet par bibliographie, en temps masqué, avec l'idée d'en faire une thèse ensuite, est une option qui vous conviendrait. 
 %C'est ainsi que je me présente pour mener à bien ce projet bibliographique avec vous \textcolor{red}{ils ont pas encore accepté : mettre plutôt : j'espère que ce projet bibliographique, avec l'idée d'en faire une thèse ensuite, est une option qui vous conviendrait. je suis certain blablaba}, dans l'idée de le transformer en projet de thèse après l'avoir mené à bout. 
-Je suis certaine qu'il sera facile de construire une relation de confiance dans le travail, dès lors que la communication est claire, et les directions scientifiques prises dans un esprit de collaboration. Je reste donc à votre entière disposition pour construire ce travail bibliographique, et cette thèse, en espérant que ma candidature puisse correspondre à vos attentes. \\
+Je suis certaine qu'il sera facile de construire une relation de confiance dans le travail, dès lors que la communication est claire, et les directions scientifiques prises dans un esprit de collaboration. 
+Je reste donc à votre entière disposition pour construire ce premier travail, et cette thèse, en espérant que ma candidature puisse correspondre à vos attentes. \\
 
 Meilleures salutations, \\
 
 Claire Gayral
 
+
+\end{document}
+
 \vspace{2cm}
 \textbf{Contenu mail} : 
 
 
- Madame Seba, Monsieur Haddad,
+ Madame Seba, Monsieur Haddad,\\
 
-Je vous contacte suite à la lecture de l'offre de stage sur la détection d'anomalie dans un flux de graphes. Serait-il  envisageable de prévoir un rendez-vous téléphonique ? 
+Je vous contacte suite à la lecture de l'offre de stage sur la détection d'anomalie dans un flux de graphes. Serait-il  envisageable de prévoir un rendez-vous téléphonique ? \\
 
-Je suis actuellement à la recherche plus d'une thèse que d'un stage, mais le sujet que vous proposez a l'air de vraiment me plaire. N'étant pas dans une formation diplômante, il ne m'est pas possible de faire un stage sous sa forme conventionnelle, néanmoins, il m'est possible de vous proposer quelques mois de travail bibliographiques. 
+Je suis actuellement à la recherche plus d'une thèse que d'un stage, mais le sujet que vous proposez a l'air de vraiment me plaire. Je suis prête à réaliser un important travail bibliographique en amont, et en collaboration avec vous, afin de me familiariser au sujet, à votre manière de travailler, et que chacun voit s'il est prêt à s'engager sur une thèse à la suite de cette collaboration.
+En effet, n'étant pas dans une formation diplômante, il ne m'est pas possible de faire un stage sous sa forme conventionnelle. Néanmoins, je peux vous proposer de réaliser ce travail de synthèse bibliographique soit en CDD, soit hors contrat, puisque j'ai une source de revenus pendant encore quelques mois.\\
 
 Je vous laisse les contacts de différentes personnes, qui ont eu l'occasion de m'encadrer, qui ont gentiment proposé d'être référents : 
 - Julien Chiquet, tel : +33(0)1 44 08 18 39; mail :julien.chiquet@inrae.fr; site : http://julien.cremeriefamily.info/
@@ -108,25 +120,3 @@ Bien cordialement,
 Claire Gayral
 claire.gayral69@gmail.com
 06 44 16 74 45 
-
-\end{document}
-
-\textbf{Contenu mail} : 
-
-
-Monsieur Haddad, Madame Seba,
-
-Je vous contacte suite à la lecture de l'offre de stage sur la détection d'anomalie dans un flux de graphes. Serait-il  envisageable de prévoir un rendez-vous téléphonique ? 
-
-Je suis actuellement à la recherche plus d'une thèse que d'un stage, mais le sujet que vous proposez a l'air de vraiment me plaire. N'étant pas dans une formation diplômante, il ne m'est pas possible de faire un stage sous sa forme conventionnelle, mais j'ai la chance de pouvoir vous proposer quelques mois de travail bibliographiques. 
-
-
-
-Si vous souhaitez de plus amples informations, je reste à votre entière disposition.
-
-Bien cordialement, 
-
-Claire Gayral
-
-
-
