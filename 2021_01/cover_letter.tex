@@ -1,0 +1,87 @@
+\documentclass[a4paper,11pt]{article}
+\renewcommand{\baselinestretch}{0.94} 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[intlimits]{amsmath}
+\usepackage{amsfonts,amssymb,amscd,amstext}
+
+
+%%%% tikz library : %%%%
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,calc,arrows,shapes,decorations.pathreplacing}
+\usetikzlibrary{patterns,plotmarks}
+\usetikzlibrary{decorations.pathreplacing,decorations.markings, arrows}
+\newcommand{\midarrow}{\tikz \draw[-triangle 90] (0,0) -- +(.1,0);}
+\usepackage{pgfplots}
+\usepackage{caption,subcaption}
+\tikzset{every picture/.style={remember picture}}
+
+
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{array}
+\usepackage{theorem}
+\newtheorem{remark}{Remark}
+\newtheorem{theorem}{Theorem}[subsection]
+
+\newcommand{\aaa}{\alpha}
+\newcommand{\bb}{\beta}
+
+
+%ajouts ulysse
+\newcommand{\Int}{\int\limits}
+\newcommand{\om}{$\!\!^\sharp\,\,$}
+\newcommand{\di}{$\!\!^\star\,\,$}
+%\pagestyle{empty}
+\newcommand{\ligneH}{\noindent\makebox[\linewidth]{\rule{\textwidth}{.5pt}}} %\paperwidth
+
+%%%% mise en page : 
+\pagestyle{plain} \setlength{\textwidth}{17,6cm}
+\setlength{\textheight}{25cm} \setlength{\topmargin}{-2cm}
+\setlength{\oddsidemargin}{-0.9cm}
+\setlength{\evensidemargin}{+0.9cm}
+
+\title{Lettre de motivation}
+\author{Claire Gayral}
+\date{}
+
+\begin{document}
+
+{\centering \Large \bf Cover Letter  \\ \vspace{0.6cm} }
+Madam, Sir, 
+\\
+
+I am a Junior Data Scientist, looking for a short experience in a company. The mission would concern the processing of data sets, in python, R, or other software, in order to reveal the answer to a given problem, or to have a global overview of the data. 
+%Why a short experience? 
+I'm waiting for confirmation of funding for a thesis and I plan to use this time to invest in a different project and discover new applications. \\
+
+% presentation internship M1
+I discovered some applications of Machine Learning during my optional internship at the end of my first year, supervised by S. Lousteau and C. Brunet-Saumard.
+I developped some tool for telephone fraud detection and predictive maintenance for LumenAI company.  I discovered many tools, both mathematical (graphs, optimal transport, clustering, ...) and python programming (pandas, NetworkX, ...). 
+This 3 months internship allowed me to realize that a PhD will be necessary for me  in this field of Machine Learning. 
+
+% M2 internship and thesis 1
+For my second year of Master, I thus chose to leave the professionalization track, in favor of the research track - year validated by being 7$^{\text{th}}$ of promotion. 
+I followed a 4-month internship co-supervised by J. Chiquet and F. Picard, on the analysis of expression measurements and genomic regulation of lymphocytes, in single cells. I read a lot about the biological notions of single cellgenomics, and I cleaned and analyzed a data set in $R$, in order to understand regulatory mechanisms that would explain lymphocyte differentiation. Unfortunately, these data had too few signal to use them in an integration framework. Nevertheless, this work was a perfect introduction to the biological notions of single cell genomics.
+
+So I started a thesis, on the subject "integration of single cell sequencing data", whose first year was devoted to the bibliography, and a project on the integration of omics data. 
+%
+By integration, I mean finding projection planes in which the distance is small, as Canonical Correlation Analysis (CCA) projects data into a space where the "correlation" distance is small. Starting from this classical method, I studied its different extensions (kernel, probabilistic) and then I tried to replace the metric by a measure (different divergences, optimal transport),that would better take into account the so particular distribution of the data (Zero-inflated, negative binomial, dependancy between measures ...), linked to single cell sequencing. 
+In parallel with this scientific watch, the side project was an opportunity to learn, in complete autonomy, how to use the laboratory's calculation server, with git monitoring and all the good practices necessary for a joint project with other people.
+% course :
+In addition to this work, I have given 110 tutorial hours since January 2020, for the UFR of Mathematics of the UCBL. 
+% change : 
+Nevertheless, this first year of thesis did not take place in optimal conditions, notably because of communication problems with one of my directors, which forced me to consider this new professional project.\ 
+The knowledge I learned and the work habits I acquired during this year make this experience not a failure, but rather a springboard to a project that would suit me better. \\
+
+% conclusion
+I am therefore looking for a job in which to invest my time and skills. My profile is atypical, but I know that it is a strength: it proves my ability to adapt, my curiosity, and my desire to move forward. 
+% politesse
+I remain at your entire disposal for the future, hoping that my profile can meet your expectations. \\
+
+Best regards,\\
+
+Claire Gayral
+
+
+\end{document}
