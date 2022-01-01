@@ -1,0 +1,88 @@
+\documentclass[a4paper,12pt]{article}
+\renewcommand{\baselinestretch}{0.94} 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[intlimits]{amsmath}
+\usepackage{amsfonts,amssymb,amscd,amstext}
+
+
+%%%% tikz library : %%%%
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,calc,arrows,shapes,decorations.pathreplacing}
+\usetikzlibrary{patterns,plotmarks}
+\usetikzlibrary{decorations.pathreplacing,decorations.markings, arrows}
+\newcommand{\midarrow}{\tikz \draw[-triangle 90] (0,0) -- +(.1,0);}
+\usepackage{pgfplots}
+\usepackage{caption,subcaption}
+\tikzset{every picture/.style={remember picture}}
+
+
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{array}
+\usepackage{theorem}
+\newtheorem{remark}{Remark}
+\newtheorem{theorem}{Theorem}[subsection]
+
+\newcommand{\aaa}{\alpha}
+\newcommand{\bb}{\beta}
+
+
+%ajouts ulysse
+\newcommand{\Int}{\int\limits}
+\newcommand{\om}{$\!\!^\sharp\,\,$}
+\newcommand{\di}{$\!\!^\star\,\,$}
+%\pagestyle{empty}
+\newcommand{\ligneH}{\noindent\makebox[\linewidth]{\rule{\textwidth}{.5pt}}} %\paperwidth
+
+%%%% mise en page : 
+\pagestyle{plain} \setlength{\textwidth}{17,6cm}
+\setlength{\textheight}{25cm} \setlength{\topmargin}{-2cm}
+\setlength{\oddsidemargin}{-0.9cm}
+\setlength{\evensidemargin}{+0.9cm}
+
+\title{Lettre de motivation}
+\author{Claire Gayral}
+\date{}
+
+\begin{document}
+
+{\centering \Large \bf Lettre de motivation \\ \vspace{0.6cm} }
+
+Madame, Monsieur, 
+\\
+
+Je suis une Data Scientist Junior, à la recherche d'une nouvelle expérience professionnelle. Votre projet de CDD de 18 mois, intitulé " INGÉNIEUR(E) EN INTELLIGENCE ARTIFICIELLE ET GÉOMÉTRIE COMPUTATIONNELLE" semble être un parfait candidat pour mon parcours, tant par son contenu que par sa durée. En effet, je suis à la cherche d'une transition, avant de commencer une thèse avec Sébastien Lousteau. \\%Si ce projet est à vocation courte à cause de mon projet à plus long terme, il n'exclut pas un partenariat pour la suite.\\
+
+% présentation stage M1
+J'ai découvert quelques applications possibles du Machine Learning lors de mon stage facultatif de fin de première année, encadré par S. Lousteau et C. Brunet-Saumard.
+En traitant des problématiques de détections de fraudes téléphoniques, et de maintenance prédictive pour l'entreprise LumenAI, j'ai alors découvert de nombreux outils, tant mathématiques (graphes, transport optimal, clustering, ...) que de programmation python (pandas, NetworkX, ...). 
+Ce stage de 3 mois m'a permis de réaliser qu'un doctorat sera nécessaire pour que je m'épanouisse au long terme dans ce domaine de l'Intelligence Artificielle, d'où ce projet de thèse qui suivrait cette expérience. 
+
+% Stage M2 et thèse 1
+Pour ma deuxième année de Master, j'ai donc choisi de quitter la filière professionnalisante, au profit de la filière recherche - année validée en étant 7$^{\text{ième}}$ de promotion. 
+J'ai enchaîné sur 4 mois de stage co-encadré par J. Chiquet et F. Picard, portant sur l'analyse de mesures d'expression et régulation génomique de lymphocytes, en cellule unique. Ce travail technique, fait en $R$ n'a pu aboutir à la publication prévue, sur des mécanismes de régulation responsables de la différentiation de lymphocyte, par manque de signal dans les données. Néanmoins, ce travail a été une parfaite introduction aux notions biologiques de génomique en cellule unique.
+%
+%durant lesquels je me suis familiarisée avec les notions biologiques de génomique en cellule unique, et j'ai nettoyé et analysé un jeu de données, dans l'objectif de révéler des mécanismes de régulation responsables de la différentiation de lymphocyte. Ces données avaient trop peu de signal pour les utiliser dans un cadre d'intégration, et publier ce travail. 
+%
+
+J'ai ensuite entamé une thèse, portant sur le sujet "intégration de données de séquençage en cellule unique", dont la première année a été consacrée à la bibliographie, et un projet d'intégration de données omiques. 
+%
+Par intégration, j'entends trouver des plans de projection dans lesquels la distance est faible, comme l'Analyse Canonique des Corrélation (CCA) projette les données dans un espace où la distance "corrélation" est petite. Partant de cette méthode classique, j'ai étudié ses différentes extensions (à noyaux, probabiliste) puis j'ai cherché à remplacer la métrique par une mesure qui prendrait mieux en compte la distribution si particulière des données (différentes divergences, transport optimal), liées au séquençage en cellule unique. 
+En parallèle de cette veille scientifique, le projet annexe a été l'occasion d'apprendre, en toute autonomie, à utiliser le serveur de calcul du laboratoire, avec un suivi git et toutes les bonnes pratiques nécessaires à un projet commun avec d'autres personnes.
+% cours :
+En plus de ces travaux, j'ai dispensé 110 heures de TD depuis janvier 2020, pour l'UFR de mathématiques de l'UCBL. 
+% changement : 
+Néanmoins, cette première année de thèse ne s'est pas déroulée dans des conditions optimales, notamment à cause de problèmes de communication avec un de mes directeurs, ce qui m'a forcé à considérer ce nouveau projet professionnel.\\ 
+%Les connaissances apprises et les habitudes de travail acquises durant cette année font de cette expérience non un échec, mais bien un tremplin vers un projet qui me conviendrait mieux. 
+
+Je suis donc à la recherche d'un travail dans lequel investir mon temps et mes compétences. Mon profil est atypique, mais je sais que c'est une force : il prouve ma capacité d'adaptation, ma curiosité, et mon envie d'avancer. 
+%
+Je reste donc à votre entière disposition pour la suite, en espérant que mon profil puisse correspondre à vos attentes. \\
+
+Meilleures salutations, \\
+
+Claire Gayral
+
+
+\end{document}

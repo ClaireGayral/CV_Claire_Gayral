@@ -1,0 +1,137 @@
+\documentclass[a4paper,11pt]{article}
+\renewcommand{\baselinestretch}{0.94} 
+\usepackage[T1]{fontenc}
+\usepackage[utf8]{inputenc}
+\usepackage[intlimits]{amsmath}
+\usepackage{amsfonts,amssymb,amscd,amstext}
+
+
+%%%% tikz library : %%%%
+\usepackage{tikz}
+\usetikzlibrary{tikzmark,calc,arrows,shapes,decorations.pathreplacing}
+\usetikzlibrary{patterns,plotmarks}
+\usetikzlibrary{decorations.pathreplacing,decorations.markings, arrows}
+\newcommand{\midarrow}{\tikz \draw[-triangle 90] (0,0) -- +(.1,0);}
+\usepackage{pgfplots}
+\usepackage{caption,subcaption}
+\tikzset{every picture/.style={remember picture}}
+
+
+\usepackage{multicol}
+\usepackage{enumerate}
+\usepackage{array}
+\usepackage{theorem}
+\newtheorem{remark}{Remark}
+\newtheorem{theorem}{Theorem}[subsection]
+
+\newcommand{\aaa}{\alpha}
+\newcommand{\bb}{\beta}
+
+
+%ajouts ulysse
+\newcommand{\Int}{\int\limits}
+\newcommand{\om}{$\!\!^\sharp\,\,$}
+\newcommand{\di}{$\!\!^\star\,\,$}
+%\pagestyle{empty}
+\newcommand{\ligneH}{\noindent\makebox[\linewidth]{\rule{\textwidth}{.5pt}}} %\paperwidth
+
+%%%% mise en page : 
+\pagestyle{plain} \setlength{\textwidth}{17,6cm}
+\setlength{\textheight}{25cm} \setlength{\topmargin}{-2cm}
+\setlength{\oddsidemargin}{-0.9cm}
+\setlength{\evensidemargin}{+0.9cm}
+
+\title{Lettre de motivation}
+\author{Claire Gayral}
+\date{}
+
+\begin{document}
+
+{\centering \Large \bf Lettre de motivation \\ \vspace{0.6cm} }
+
+L'offre de thèse CIFRE sur ... 
+
+
+% Votre offre de stage de master 2, sur la détection d’anomalies dans un flux de graphes a attiré mon attention, car cette thématique de recherche, avec de multiples applications, me semble aussi intéressante que valorisable. Je suis plus intéressée par l'offre de thèse accompagnant le stage que par le stage lui-même, et j'aimerais vous détailler les raisons qui m'amènent à vous soumettre ma candidature.
+% \\
+
+Premièrement, mon projet de faire un doctorat est né par son aspect de formation à la recherche, lors de mon stage facultatif de fin de première année de Master en Machine Learning, encadré par Sébastien Lousteau et Camille Saumard. Ce stage se résume en le traitement des problématiques de détections de fraudes téléphoniques, et de maintenance prédictive, pour l'entreprise LumenAI. Il faisait appel à des outils variés, tant mathématiques (graphes, transport optimal, clustering, ...) que de programmation python (pandas, NetworkX, ...). 
+Ce stage m'a permis de réaliser que la fouille de données avec les compétences que j'avais allait très rapidement m'ennuyer, car la réalité de l'entreprise n'en fait pas un milieu propice à l'auto-formation, dans l'état de mes compétences.
+Pour la deuxième année de Master, la filière professionnalisante a été délaissée au profit de la filière recherche - année validée en étant 7$^{\text{ième}}$ de promotion.
+Le stage de fin d'étude, de 4 mois, a été co-encadré par J. Chiquet et F. Picard. Il portait sur l'analyse de mesures d'expression et régulation génomique de lymphocytes, en cellule unique. Bien que les données n'avaient le signal suffisant pour publier une analyse, ce travail technique et bibliographique a mené à un projet de thèse sur "l'intégration de données de séquençage en cellule unique". La première année de thèse (du 01/10/2019 au 31/12/2020), a été consacrée à la bibliographie, et un projet d'intégration de données omiques. 
+%
+Intégration signifie ici trouver des plans de projection dans lesquels la distance est petite, comme l'Analyse Canonique des Corrélation (CCA) projette les données dans un espace où la distance "corrélation" est faible. Partant de cette méthode classique, j'ai étudié ses différentes extensions (à noyaux, probabiliste) puis j'ai cherché à remplacer la métrique par une mesure qui prendrait mieux en compte la distribution si particulière des données (différentes divergences, transport optimal). 
+% 
+En parallèle de ces travaux, j'ai dispensé 110 heures de TD depuis janvier 2020, pour l'UFR de mathématiques de l'UCBL. 
+Malheureusement, cette année de thèse ne s'est pas déroulée dans des conditions optimales, notamment à cause de la définition trop vague du sujet de thèse. 
+%
+Il a donc été décidé d'interrompre ce projet. %, bien que ni mes compétences, ni les raisons qui me poussaient à entreprendre un doctorat n'ont été remises en cause (je vous laisse le soin de contacter mon ancien directeur J. Chiquet, ou encore mon encadrant de stage de M1, S. Lousteau).
+%
+Les connaissances apprises et les habitudes de travail acquises durant cette année font de cette expérience un tremplin vers un projet qui me conviendrait mieux. En particulier, une application plus concrète, avec une dynamique d'entreprise semblerait mieux me correspondre. La formation complémentaire "Ingénieur Machine Learning" d'OpenClassRooms était alors la clé pour rapidement apprendre à développer des projets en python, avec les bonnes pratiques de programmation et les bibliothèques adaptées. 
+Cette formation en ligne est basée sur des projets avec différentes problématiques : prédiction d'un score pour les aliments, prédiction de la consommation électrique de bâtiments, segmentation de clients, catégorisation de questions et prédiction de tags associés, classification d'images ... Les sujets sont aussi variés que les méthodes à explorer. Dans le cadre de cette formation, j'ai fait un stage pour Twice.ai, encadré par Camille Saumard, sur la segmentation sémantique d'image web. Ce travail, pour détecter des paragraphes textuels par vision par ordinateur m'a permis d'explorer deux approches pour répondre à cette problématique, la première basée sur du transfert d'apprentissage, la deuxième utilise la structure géométrique des paragraphes. 
+%
+Pour autant, la valorisation du travail scientifique par la publication, et l'acquisition d'une expertise dans un domaine précis restent des objectifs que je pense atteindre par une thèse. 
+%
+Je ne suis pas encore figée dans mon projet professionnel au long terme : poursuivre un parcours académique, ou travailler dans une entreprise, sur des projets de Recherches et Développement.
+%Je pense avoir le temps de maturer cela au cours de la thèse. 
+%
+\\
+
+
+
+L'opportunité qu'offre ce projet s'ancre particulièrement dans mon projet professionnel. 
+
+Pourquoi ? 
+- entre entreprise avec des besoins fixés et des échéances/calendrier
+- et recherches académiques, sans problématiques de publication liées à la propriété intellectuelle. 
+- La première rencontre avec les différentes parties du projet a permis de fixer le sujet, les pistes scientifiques, et les besoins individuels
+
+- projet intéressant
+- applications éthiques 
+
+
+
+
+Pourquoi cette offre en particulier ?  L'offre est claire, et propose une bibliographie assez riche comme point de départ. Bien que mes travaux de recherches précédents diffèrent du sujet que vous proposez, ma formation en mathématiques et informatique me donne la flexibilité nécessaire pour aborder cette thématique différente; et mon expérience de thèse m'a donné une méthodologie de travail que je saurais remettre à profit. 
+
+Je l'ai bien noté, vous proposez une offre de stage de Master et non de thèse.
+Je ne doute pas que l'on puisse construire ensemble une relation de confiance pour travailler, mais mon expérience récente m'incline à prendre le temps de bâtir une telle relation avant de m'engager dans un projet à long terme. Je suis sûre que vous comprendrez, étant donné les circonstances.
+%Mon expérience récente me pousse à vouloir faire quelques mois de travail bibliographique avec vous avant de m'engager dans un projet de thèse : \textcolor{red}{}
+Ce pourquoi une forme de "stage" me paraît tout à fait appropriée.  
+%
+\\
+J'espère que ce projet d'introduction au sujet par bibliographie, en temps masqué, avec l'idée d'en faire une thèse ensuite, est une option qui vous conviendrait. 
+%C'est ainsi que je me présente pour mener à bien ce projet bibliographique avec vous \textcolor{red}{ils ont pas encore accepté : mettre plutôt : j'espère que ce projet bibliographique, avec l'idée d'en faire une thèse ensuite, est une option qui vous conviendrait. je suis certain blablaba}, dans l'idée de le transformer en projet de thèse après l'avoir mené à bout. 
+Je suis certaine qu'il sera facile de construire une relation de confiance dans le travail, dès lors que la communication est claire, et les directions scientifiques prises dans un esprit de collaboration. 
+Je reste donc à votre entière disposition pour construire ce premier travail, et cette thèse, en espérant que ma candidature puisse correspondre à vos attentes. \\
+
+Meilleures salutations, \\
+
+Claire Gayral
+
+
+\end{document}
+
+\vspace{2cm}
+\textbf{Contenu mail} : 
+
+
+ Madame Seba, Monsieur Haddad,\\
+
+Je vous contacte suite à la lecture de l'offre de stage sur la détection d'anomalie dans un flux de graphes. Serait-il  envisageable de prévoir un rendez-vous téléphonique ? \\
+
+Je suis actuellement à la recherche plus d'une thèse que d'un stage, mais le sujet que vous proposez a l'air de vraiment me plaire. Je suis prête à réaliser un important travail bibliographique en amont, et en collaboration avec vous, afin de me familiariser au sujet, à votre manière de travailler, et que chacun voit s'il est prêt à s'engager sur une thèse à la suite de cette collaboration.
+En effet, n'étant pas dans une formation diplômante, il ne m'est pas possible de faire un stage sous sa forme conventionnelle. Néanmoins, je peux vous proposer de réaliser ce travail de synthèse bibliographique soit en CDD, soit hors contrat, puisque j'ai une source de revenus pendant encore quelques mois.\\
+
+Je vous laisse les contacts de différentes personnes, qui ont eu l'occasion de m'encadrer, qui ont gentiment proposé d'être référents : 
+- Julien Chiquet, tel : +33(0)1 44 08 18 39; mail :julien.chiquet@inrae.fr; site : http://julien.cremeriefamily.info/
+- Sébastien Lousteau : tel : +33 7 83 27 38 83, mail : sloustau@lumenai.fr, site : https://twitter.com/seb_loustau
+- Clément Marteau 
+
+Je vous présente mon profil dans la lettre de motivation et le CV ci-joints. Si vous souhaitez de plus amples informations, je reste à votre entière disposition.  
+
+Bien cordialement, 
+
+Claire Gayral
+claire.gayral69@gmail.com
+06 44 16 74 45 
