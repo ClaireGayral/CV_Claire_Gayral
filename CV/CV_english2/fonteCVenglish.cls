@@ -30,7 +30,6 @@
 
 \RequirePackage[margin=2cm]{geometry}
 \usepackage[fixed]{fontawesome5}
-
 \RequirePackage{fontawesome}
 %% v1.1: Optionally load academicons
 \if@academicons
@@ -127,7 +126,7 @@
             \fi%
         \end{minipage}\par}{}%
   \endgroup\medskip
-  Cherche un poste d'ing\'enieur Machine Learning \`a temps complet
+  Looking for full time position as Machine Learning Engineer 
 }
 
 \renewenvironment{quote}{\color{accent}\itshape\large}{\par}

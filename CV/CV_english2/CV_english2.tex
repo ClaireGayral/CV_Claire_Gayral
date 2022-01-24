@@ -1,6 +1,4 @@
 
-
-
 %%%%%%%%%%%%%%%%%
 % This is an sample CV template created using altacv.cls
 % (v1.1.4, 27 July 2018) written by LianTze Lim (liantze@gmail.com). Now compiles with pdfLaTeX, XeLaTeX and LuaLaTeX.
@@ -18,7 +16,7 @@
 \PassOptionsToPackage{dvipsnames}{xcolor}
 
 
-\documentclass[10pt,a4paper]{CV/fonteCV}
+\documentclass[10pt,a4paper]{fonteCVenglish}
 
 % Change the page layout if you need to
 \geometry{left=1cm,right=9cm,marginparwidth=6.8cm,marginparsep=1.2cm,top=1.25cm,bottom=1.25cm,footskip=2\baselineskip}
@@ -49,7 +47,6 @@
 \renewcommand{\itemmarker}{{\small\textbullet}}
 \renewcommand{\ratingmarker}{\faCircle}
 %% sample.bib contains your publications
-\addbibresource{sample.bib}
 
 \usepackage[colorlinks = true,
             linkcolor = HeadColor,
@@ -71,8 +68,7 @@
 %\photo{2.8cm}{Globe_High}
 \personalinfo{
     \email{claire.gayral69@gmail.com}
-    \phone{
-    +33 6 44 16 74 45}
+    \phone{+33 6 44 16 74 45}
   \\
     \mailaddress{43 rue Coutanceau, 35000 Rennes}
     \car{Permis B}
@@ -87,93 +83,87 @@
 
 
 
-\cvsection[CV/frenchSidebar]{Expériences professionnelles}
+\cvsection[englishSidebar]{Work experiences in maths}
 
-%\cvevent{Thèse statistiques appliquées à des données génomiques}{F. Picard LBBE (Lyon1) - J. Chiquet MIA (AgroParisTech)}{Octobre 2019 - Décembre 2020}{Lyon et Paris, France}
-\cvevent{Ingénieure Data Scientist (Stage)% à la Génomique
-}{C. Saumard}{09/2021 - 11/2021}{ \faCheck  \hspace{0.1cm} UXvizer }
-Segmentation sémantique d'images web
+\cvevent{Machine Learning Engineer (Intership)
+}{C. Saumard}{2021, 2.5 month}{ \faCheck  \hspace{0.1cm} UXvizer}
+Semantic segmentation of web images
 \smallskip
 \begin{itemize}
-\item Vision par ordinateur : détection de paragraphe textuel 
-\item Transfert d'apprentissage et géométrie
+\item Computer Vision : textual paragraph detection 
+\item Transfert learning and geometry approach
 \end{itemize}
 
 \divider
 
 
 %\cvevent{Thèse statistiques appliquées à des données génomiques}{F. Picard LBBE (Lyon1) - J. Chiquet MIA (AgroParisTech)}{Octobre 2019 - Décembre 2020}{Lyon et Paris, France}
-\cvevent{Chargée d'études en Statistiques Appliquées (Doctorat)% à la Génomique
-}{ J. Chiquet MIA et F. Picard LBBE}{10/2019 - 12/2020}{ \faMortarBoard  \hspace{0.1cm} AgroParisTech et UCBL 1 }
-Méthodes d'intégration de données génomiques en cellule unique
+\cvevent{Applied Statistics Analyst (PhD, 1 year)
+}{ J. Chiquet MIA et F. Picard LBBE}{2019 - 2020}{ \faIcon{dna}  \hspace{0.1cm} AgroParisTech and UCBL 1 }
+ Integration methods for single-cell data
 \smallskip
 \begin{itemize}
-\item Noyaux, Distances de Wasserstein, Méthodes algébriques (CCA)
-% \item Projet annexe d'intégration de données multi-omiques
-\item Enseignement : $\sim$110h de TD de maths, niveau L1
+    \item Kernel Methods, Wasserstein Distances, Algebraic Methods (CCA)
+    \item Teaching : $\sim$ 110h of math tutorials, level L1
 \end{itemize}
 
 \divider
 
-\cvevent{Ingénieur de recherche Junior (Stage)}{ J. Chiquet MIA et F. Picard LBBE }{04/2019 - 09/2019}{ \faMortarBoard  \hspace{0.1cm} AgroParisTech et UCBL 1}
-\'Etude d'un jeu de données singlecell en R
-\smallskip%(RNA-Seq et ATAC-Seq). 
+\cvevent{Junior Research Engineer (Internship)}{ J. Chiquet MIA et F. Picard LBBE }{2019, 5 months}{ \faDna  \hspace{0.1cm} AgroParisTech and UCBL 1 }
+Study of a single cell sequencing data set (RNA-Seq and ATAC-Seq). 
+\smallskip
 \begin{itemize}
-\item Analyse descriptive et pr\'e-traitement 
-\item Intégration par méthode algébrique (CCA) 
-% \item Veille scientifique : Statistique, Génomique, Bio-informatique
+    \item Descriptive analysis and pre-treatment (R) 
+    \item Bibliography on Genomics and Single Cell Methods
 \end{itemize}
 \smallskip
 
 \divider
 
-\cvevent{Ingénieure Data Scientist Junior (Stage)}{
- S. Lousteau et C. Saumard, }{06/2018 - 08/2018}{ \faLightbulbO \hspace{0.1cm} LumenAI}
-Traitement de projet clients en python
+\cvevent{DataScientist Junior (Internship)}{
+ S. Lousteau et C. Saumard, }{2018, 3 months}{ \faLightbulbO \hspace{0.1cm} LumenAI}
+Processing of client projects, POC in python
 \smallskip
 \begin{itemize}
-\item Maintenance prédictive, détection et caractérisations d'évènements suspects, clustering
-\item Application : fraude téléphonique, détection de panne
+    \item Predictive maintenance, detection and characterization of suspicious events
+    \item Application: telephone fraud, failure detection
 \end{itemize}
 \vspace{0.25cm}
 
 %%%%%%%%%%%%%%%%%%%%%%%%%%
 \cvsection{Autres Emplois}
 
-\cvevent{Enseignante à domicile}{}{2/21-6/21}{ \faChild \hspace{0.1cm} Acadomia}
-% \begin{itemize}
-   %  \item
-   Suivi hebdomadaire de plusieurs élèves en supérieur (Prépa, IAE ...) 
+\cvevent{Enseignante à domicile}{}{2021}{ \faChild \hspace{0.1cm} Acadomia}
+   Weekly follow-up of several students in higher education (Prépa, IAE ...) 
 % \end{itemize}
 
 \vspace{0.25cm}
 % \divider
 
 
-\cvevent{ Agent Escale Client}{}{2/17, 4/17 et 6/17-8/17}{ \faPlane \hspace{0.1cm} Air France}
+\cvevent{Agent Escale Client}{}{Summer 2017}{ \faPlane \hspace{0.1cm} Air France}
 % \begin{itemize}
    %  \item
-   Accueil des clients à l'aéroport Roissy Charles de Gaulle
+   Reception, check-in and boarding of customers at Paris CDG airport
 % \end{itemize}
 
 \vspace{0.25cm}
 % \divider
 
-\cvevent{Cours particuliers}{}{1/17-6/17}{\faChild \hspace{0.1cm} Association Mas des Moulins}
+\cvevent{Private Tutoring}{}{2017}{\faChild \hspace{0.1cm} Association Mas des Moulins}
 % \begin{itemize}
 % \item 
-Soutien scolaire dans un foyer pour jeunes.
-%\end{itemize}
+Scholar tutoring in a youth home.%\end{itemize}
 
 \vspace{0.25cm}
 %\divider
 
-\cvevent{Maîtresse au pair}{}{9/14 - 7/15}{\faPaperclip
+\cvevent{Maîtresse au pair}{}{2014 - 2015}{\faPaperclip
  \hspace{0.1cm} Lycée Louis Barthou}
- Surveillance d'internat
-
-
+Boarding school supervision, participation on the Board of Directors
 
 \end{document}
 %    valeurs : humains - justice - respect.
+
+
 
